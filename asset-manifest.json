@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/frenchstreet/static/css/main.073c9b0a.css",
+    "main.js": "/frenchstreet/static/js/main.74e3fdeb.js",
+    "static/js/787.216f4fb1.chunk.js": "/frenchstreet/static/js/787.216f4fb1.chunk.js",
+    "static/media/mobile.mp4": "/frenchstreet/static/media/mobile.581c6279c70db202b735.mp4",
+    "static/media/desktop.mp4": "/frenchstreet/static/media/desktop.be3a5c9b38647f03f615.mp4",
+    "index.html": "/frenchstreet/index.html",
+    "main.073c9b0a.css.map": "/frenchstreet/static/css/main.073c9b0a.css.map",
+    "main.74e3fdeb.js.map": "/frenchstreet/static/js/main.74e3fdeb.js.map",
+    "787.216f4fb1.chunk.js.map": "/frenchstreet/static/js/787.216f4fb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.74e3fdeb.js"
+  ]
+}
