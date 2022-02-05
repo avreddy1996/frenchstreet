@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import desktopVideo from './desktop.mp4';
+import mobileVideo from './mobile.mp4';
 
 function App() {
+  const getVideoSrc = width => {
+    if (width >= 720) return desktopVideo;
+    return mobileVideo;
+  };
+  const src = getVideoSrc(window.innerWidth);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <video autoPlay playsInline muted width={window.innerWidth} height={window.innerHeight}>
+        <source src={src} type="video/mp4"></source>
+      </video>
     </div>
   );
 }
